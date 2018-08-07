@@ -1,7 +1,11 @@
+*.class
+.project
 /bin/
 /Libs/
 /.settings/
 /.classpath
 .svn/
-/bin/
-/bin/
+/Test Cases/Working_Folder
+/Reports/
+/Scripts/Working_Folder
+
