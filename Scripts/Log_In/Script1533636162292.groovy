@@ -33,5 +33,6 @@ WebUI.waitForPageLoad(300)
 
 WebUI.waitForPageLoad(300)
 
+'XX'
 WebUI.closeBrowser()
 
