@@ -19,19 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('http://focissit.agility.com/login.aspx')
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('Login_SIT_AGILE/Login_Username'), 'importjob')
-
-WebUI.setText(findTestObject('Login_SIT_AGILE/Login_Password'), 'qa')
-
-WebUI.click(findTestObject('Login_SIT_AGILE/Login_SignIn_Button'))
-
-WebUI.waitForPageLoad(300)
-
-WebUI.waitForPageLoad(300)
-
-WebUI.closeBrowser()
+'TC 2_ V4'
+WebUI.acceptAlert()
 
